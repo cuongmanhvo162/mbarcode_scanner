@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mBarcodeScanner</string>
+    <string name="barcode_result_title">Barcode Data</string>
+    <string name="barcode_is_empty">Data is empty</string>
+</resources>

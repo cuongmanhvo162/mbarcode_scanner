@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingBottom="@dimen/padding_15"
+        android:paddingTop="@dimen/padding_15"
+        android:text="@string/barcode_result_title"
+        style="@style/TextStyle_16SP_Bold_Black" />
+
+    <TextView
+        android:id="@+id/view_barcode_result_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:padding="@dimen/padding_20"
+        style="@style/TextStyle_16SP_Normal_Black"/>
+</LinearLayout>
