@@ -6,9 +6,20 @@
     android:orientation="vertical"
     tools:context=".BarcodeScannerActivity">
 
-    <SurfaceView
-        android:id="@+id/activity_barcode_scanner_surface"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent">
 
+        <SurfaceView
+            android:id="@+id/activity_barcode_scanner_surface"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <cvo.com.mbarcodescanner.views.ViewCameraFocus
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/colorDimLighterGray"/>
+
+    </RelativeLayout>
 </LinearLayout>
